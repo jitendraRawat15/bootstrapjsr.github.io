@@ -160,6 +160,7 @@ body {
     visibility: hidden;
 }
 
+.fade-in-element {
     animation-name: fade-in-element;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -171,5 +172,6 @@ body {
     }
   
     to {
+        opacity: 1;
     }
 }
